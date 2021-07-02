@@ -8,7 +8,7 @@ function Nextimg() {
     if(x.includes("5.PNG")) img.src="../images/1.PNG";
 }
 
-function yellowcol(x){
+function greencol(x){
     x.style.backgroundColor="#5FFF33";
 }
 

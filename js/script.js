@@ -9,7 +9,7 @@ function Nextimg() {
 }
 
 function yellowcol(x){
-    x.style.backgroundColor="#cc0a0a";
+    x.style.backgroundColor="#FFFF00";
 }
 
 function retaincol(x){

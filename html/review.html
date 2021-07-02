@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YOUR VIEWS</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="navigation">
+            <a href="index.html" onmouseover="yellowcol(this)" onmouseout="retaincol(this)">HOME</a>
+            <a href="about.html" onmouseover="yellowcol(this)" onmouseout="retaincol(this)">ABOUT ME</a>
+            <a href="review.html" onmouseover="yellowcol(this)" onmouseout="retaincol(this)">YOUR VIEWS</a>
+            <a href="gallery.html" onmouseover="yellowcol(this)" onmouseout="retaincol(this)">PHOTOS</a>
+            <script src="../js/script.js"></script>
+        </div>
+        <div id="skilldiv">
+            <h2>REVIEW ON MY SKILL</h2>
+            <form id="form">
+                <h3>NAME : </h3><input id="name" type="text" name="name"><br>
+                <h3>SKILL : </h3><input id="skill" type="text" name="skill"><br>
+                <h3>LEVEL :</h3><select id="level" name="level">
+                    <option value="Bond">Bond</option>
+                    <option value="Good">Good</option>
+                    <option value="Noob">Noob</option>
+                </select><br><br>
+            </form>
+            <button onclick="result()">Submit</button><br><br>
+            <table id="mytable">
+                <tr>
+                    <th>NAME</th>
+                    <th>SKILL</th>
+                    <th>LEVEL</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
